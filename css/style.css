@@ -3,9 +3,9 @@
     src: url("../font/beachday.ttf");
 }
 
-body, h1, h2, h3, h4, h5, h6 {
-    font-family: "BeachDay";
-  }
+.reveal h1 {
+    letter-spacing: 15px;
+}
 
 .isi {
     background-color: red;
@@ -34,14 +34,23 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
     border: none;
     border-radius: 10px;
-    color: white;
-    padding: 15px 32px;
+    padding: 10px 70px;
     text-align: center;
+    letter-spacing: 5px;
     text-decoration: none;
     display: inline-block;
     font-family: "BeachDay";
-    font-size: 50px;
-  }
+    font-size: 45px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+#button1 {
+    background-color: #fbb03b;
+    color: black;
+}
