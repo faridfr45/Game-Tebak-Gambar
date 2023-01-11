@@ -1,0 +1,25 @@
+.isi {
+    background-color: red;
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+    opacity: 100%;
+    text-align: center;
+}
+
+.isi:hover {
+    opacity: 97%;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+.gambar {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/Leopard.jpg");
+    background-color: gray;
+    background-size: cover;
+}
