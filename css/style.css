@@ -1,3 +1,12 @@
+@font-face {
+    font-family: BeachDay;
+    src: url("../font/beachday.ttf");
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "BeachDay";
+  }
+
 .isi {
     background-color: red;
     width: 33.33%;
@@ -19,7 +28,20 @@
 .gambar {
     width: 100%;
     height: 100%;
-    background-image: url("../img/Leopard.jpg");
+    background-image: url("../img/hewan/Leopard.jpg");
     background-color: gray;
     background-size: cover;
 }
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "BeachDay";
+    font-size: 50px;
+  }
