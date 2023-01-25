@@ -14,25 +14,6 @@
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 
-		<script>
-			var name;
-			var scor = 0;
-	
-			function saveName(){
-				name = document.getElementById("name").value;
-				alert("Nama anda " + name)
-			}
-	
-			function addScor(){
-				scor += 10;
-				document.getElementById("skor").innerHTML = scor;
-			}
-
-			function clickGambar(element){
-				element.style.opacity = '0';
-			}
-	
-		</script>
 	</head>
 	<body>
 		<div class="reveal">
@@ -40,45 +21,79 @@
 				<section data-background-image="./img/background/slide_1.jpg">
 					Let's Play
 					<h1>Game Tebak Gambar</h1>
-					<button id="button1" class="navigate-right">START</button>
+					<button id="button1" class="navigate-right">MULAI</button>
 			
 				</section>
 
-				<section id="blacktext" data-background-image="./img/background/slide_5.jpg">
+				<section data-background-image="./img/background/slide_5.jpg">
 					<h1 style="color:black">KAMU SIAP?</h1>
 				</section>
 
+				<!-- Preparation Slide 1 -->
+				<!-- Tema Hewan -->
 				<section data-background-image="./img/background/slide_6.jpg">
 					Mudah
 					<h1>Ronde 1</h1>
 					<button id="button1" class="navigate-right">Tema: Hewan</button>
 				</section>
 
-
-				<!-- <section>
-					<h1>tes</h1>
-					<input type="text" id="name">
-					<button onclick="saveName()">Simpan</button>
-
-					<br><hr>
-
-					<h3 id="skor">0</h3>
-					<button onclick="addScor()">Tambah Skor</button>
-				</section> -->
-
+				<!-- Hewan Level 1 -->
 				<section class="full">
-					<div class="gambar">
-						<div class="isi" onclick="clickGambar(this)">1</div>
-						<div class="isi" onclick="clickGambar(this)">2</div>
-						<div class="isi" onclick="clickGambar(this)">3</div>
-	
-						<div class="isi" onclick="clickGambar(this)">4</div>
-						<div class="isi" onclick="clickGambar(this)">5</div>
-						<div class="isi" onclick="clickGambar(this)">6</div>
-	
-						<div class="isi" onclick="clickGambar(this)">7</div>
-						<div class="isi" onclick="clickGambar(this)">8</div>
-						<div class="isi" onclick="clickGambar(this)">9</div>
+					<div class="gambar" style="background-image: url(./img/hewan/Singa.jpg);">
+						<div class="box isi12" style="background-color: #131313;" onclick="clickGambar(this)">1</div>
+						<div class="box isi12" style="background-color: #fbb03b;" onclick="clickGambar(this)">2</div>
+						<div class="box isi12" style="background-color: #f05b9d;" onclick="clickGambar(this)">3</div>
+						<div class="box isi12" style="background-color: #bae3e9;" onclick="clickGambar(this)">4</div>
+
+						<div class="box isi12" style="background-color: #fbb03b;" onclick="clickGambar(this)">5</div>
+						<div class="box isi12" style="background-color: #131313;" onclick="clickGambar(this)">6</div>
+						<div class="box isi12" style="background-color: #bae3e9;" onclick="clickGambar(this)">7</div>
+						<div class="box isi12" style="background-color: #f05b9d;" onclick="clickGambar(this)">8</div>
+
+						<div class="box isi12" style="background-color: #f05b9d;" onclick="clickGambar(this)">9</div>
+						<div class="box isi12" style="background-color: #bae3e9;" onclick="clickGambar(this)">10</div>
+						<div class="box isi12" style="background-color: #131313;" onclick="clickGambar(this)">11</div>
+						<div class="box isi12" style="background-color: #fbb03b;" onclick="clickGambar(this)">12</div>
+					</div>
+				</section>
+
+				<!-- Hewan Level 2 -->
+				<section class="full">
+					<div class="gambar" style="background-image: url(./img/hewan/Kucing.jpg);">
+						<div class="box isi12" style="background-color: #131313;" onclick="clickGambar(this)">1</div>
+						<div class="box isi12" style="background-color: #fbb03b;" onclick="clickGambar(this)">2</div>
+						<div class="box isi12" style="background-color: #f05b9d;" onclick="clickGambar(this)">3</div>
+						<div class="box isi12" style="background-color: #bae3e9;" onclick="clickGambar(this)">4</div>
+
+						<div class="box isi12" style="background-color: #fbb03b;" onclick="clickGambar(this)">5</div>
+						<div class="box isi12" style="background-color: #131313;" onclick="clickGambar(this)">6</div>
+						<div class="box isi12" style="background-color: #bae3e9;" onclick="clickGambar(this)">7</div>
+						<div class="box isi12" style="background-color: #f05b9d;" onclick="clickGambar(this)">8</div>
+
+						<div class="box isi12" style="background-color: #f05b9d;" onclick="clickGambar(this)">9</div>
+						<div class="box isi12" style="background-color: #bae3e9;" onclick="clickGambar(this)">10</div>
+						<div class="box isi12" style="background-color: #131313;" onclick="clickGambar(this)">11</div>
+						<div class="box isi12" style="background-color: #fbb03b;" onclick="clickGambar(this)">12</div>
+					</div>
+				</section>
+
+				<!-- Hewan Level 3 -->
+				<section class="full">
+					<div class="gambar" style="background-image: url(./img/hewan/Angsa.jpg);">
+						<div class="box isi12" style="background-color: #131313;" onclick="clickGambar(this)">1</div>
+						<div class="box isi12" style="background-color: #fbb03b;" onclick="clickGambar(this)">2</div>
+						<div class="box isi12" style="background-color: #f05b9d;" onclick="clickGambar(this)">3</div>
+						<div class="box isi12" style="background-color: #bae3e9;" onclick="clickGambar(this)">4</div>
+
+						<div class="box isi12" style="background-color: #fbb03b;" onclick="clickGambar(this)">5</div>
+						<div class="box isi12" style="background-color: #131313;" onclick="clickGambar(this)">6</div>
+						<div class="box isi12" style="background-color: #bae3e9;" onclick="clickGambar(this)">7</div>
+						<div class="box isi12" style="background-color: #f05b9d;" onclick="clickGambar(this)">8</div>
+
+						<div class="box isi12" style="background-color: #f05b9d;" onclick="clickGambar(this)">9</div>
+						<div class="box isi12" style="background-color: #bae3e9;" onclick="clickGambar(this)">10</div>
+						<div class="box isi12" style="background-color: #131313;" onclick="clickGambar(this)">11</div>
+						<div class="box isi12" style="background-color: #fbb03b;" onclick="clickGambar(this)">12</div>
 					</div>
 				</section>
 
@@ -97,15 +112,15 @@
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
+
+			function clickGambar(element){
+				element.style.opacity = '0';
+			}
 		</script>
 	</body>
 </html>

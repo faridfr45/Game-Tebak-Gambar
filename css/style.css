@@ -7,17 +7,18 @@
     letter-spacing: 15px;
 }
 
-.isi {
-    background-color: red;
-    width: 33.33%;
-    height: 33.33%;
+.box {
     float: left;
     opacity: 100%;
     text-align: center;
+    font-size: 60px;
+    cursor: pointer;
 }
 
-.isi:hover {
-    opacity: 97%;
+.isi12 {
+    width: 25%;
+    height: 33.33%;
+    line-height: 220px;
 }
 
 .full {
