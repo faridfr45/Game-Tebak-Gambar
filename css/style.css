@@ -67,6 +67,26 @@ button:hover {
     color: black;
 }
 
+#button2 {
+    background-color: #f05b9d;
+    color: white;
+}
+
+#button3 {
+    background-color: #ef5122;
+    color: white;
+}
+
 #button4 {
     background-color: #bae3e9;
+}
+
+.answer_list {
+    float: left;
+    width: 33%;
+    font-size: xx-large;
+}
+
+.blackFont, .blackFont h3 {
+    color: #131313;
 }
